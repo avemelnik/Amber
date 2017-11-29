@@ -1,0 +1,39 @@
+.welcome-section{
+  .carousel-indicators{
+    .active{
+      background: #25c4b0;
+    }
+  }
+  .carousel-item{
+    img{
+      height:95vh;
+    }
+  }
+}
+
+.main-carousel-inner{
+  height: 80vh;
+}
+
+.img-fluid{
+  height: 50%;
+}
+
+.carousel-item{
+  img{
+    height:100px;
+  }
+}
+
+.carousel-caption{
+  margin-bottom: 5em;
+  h2{
+    font-family: Oxygen, sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 72px;
+  }
+  .welcome-button{
+    margin-top: 5em;
+  }
+}
