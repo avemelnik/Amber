@@ -6,7 +6,7 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="libs/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
@@ -15,9 +15,8 @@
 </head>
 <body>
 
-<header>
+<header class="fixed-top">
     <div class="upper-part-of-header">
-
         <div class="container">
             <nav class="d-flex flex-row navbar align-items-center align-content-center justify-content-between">
                 <form class="form-inline form-search">
@@ -116,32 +115,93 @@
 
 <section class="section-promo">
     <div class="container title-and-text promo-width text-center justify-content-center d-flex flex-column">
-        <h3>Steal of the month</h3>
-        <p>That we can tuck in our children at night and know that they are fed and clothed and safe from harm. Our
-            trials and triumphs became at once unique and universal.
-            , black and more than black.</p>
-
-        <div class="f-flex justify-content-center"><button type="button" class="my-btn my-empty-btn">purchase now</button></div>
+        <header>
+            <h3>Steal of the month</h3>
+            <p>That we can tuck in our children at night and know that they are fed and clothed and safe from harm. Our
+                trials and triumphs became at once unique and universal.
+                , black and more than black.</p>
+        </header>
+        <div class="f-flex justify-content-center">
+            <button type="button" class="my-btn my-empty-btn">purchase now</button>
+        </div>
     </div>
 </section>
 
-<section class="latest-works">
-    <div class="container title-and-text text-center justify-content-center d-flex flex-column">
-    <h3 class="text-color-white">Latest works</h3>
-        <p class="text-color-white">
-            That we can tuck in our children at night and know that they are fed and clothed and safe from harm. Our trials and triumphs became at once unique and universal.
-        </p>
-        <div class="row">
-            <div class="col-sm-12 col-md-4 photo">
-                <img src="img\nataly.jpg" alt="nataly">
-            </div>
-            <div class="col-sm-12 col-md-4 photo">
-                <img src="img\nataly.jpg" alt="nataly">
-            </div>
-            <div class="col-sm-12 col-md-4 photo">
-                <img src="img\nataly.jpg" alt="nataly">
-            </div>
-        </div>
+<section
+        class="latest-works  title-and-text text-center justify-content-center align-items-center align-content-center d-flex flex-column">
+    <div class="container">
+        <header>
+            <h3 class="text-color-white">Latest works</h3>
+            <p class="text-color-white">
+                That we can tuck in our children at night and know that they are fed and clothed and safe from harm. Our
+                trials and triumphs became at once unique and universal.
+            </p>
+        </header>
+        <ul class="row latest-photo">
+            <li class="col-12 col-lg-4 photo">
+                <figure><img src="img\nataly.jpg" width="290" height="290" alt="nataly">
+                    <figcaption>
+                        <div class="lower-text d-flex flex-column text-left">
+                            <p class="name text-color-white">Lindemans Wine</p>
+                            <p class="job text-color-green">Art Direction, Web Design</p>
+                        </div>
+                    </figcaption>
+                </figure>
+                    <ul class="link-hidden">
+                        <li class="link-bg">
+                            <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="link-bg">
+                            <a href="#"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="link-bg">
+                            <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+            </li>
+            <li class="col-12 col-lg-4 photo">
+                <figure><img src="img\nataly.jpg" width="290" height="290" alt="nataly">
+                    <figcaption>
+                        <div class="lower-text d-flex flex-column text-left">
+                            <p class="name text-color-white">Lindemans Wine</p>
+                            <p class="job text-color-green">Art Direction, Web Design</p>
+                        </div>
+                    </figcaption>
+                </figure>
+                <ul class="link-hidden">
+                    <li class="link-bg">
+                        <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="link-bg">
+                        <a href="#"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="link-bg">
+                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </li>
+            <li class="col-12 col-lg-4 photo">
+                <figure><img src="img\nataly.jpg" width="290" height="290" alt="nataly">
+                    <figcaption>
+                        <div class="lower-text d-flex flex-column text-left">
+                            <p class="name text-color-white">Lindemans Wine</p>
+                            <p class="job text-color-green">Art Direction, Web Design</p>
+                        </div>
+                    </figcaption>
+                </figure>
+                <ul class="link-hidden">
+                    <li class="link-bg">
+                        <a href="#"><i class="fa fa-heart link-icon" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="link-bg">
+                        <a href="#"><i class="fa fa-search-plus link-icon" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="link-bg">
+                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
     </div>
 </section>
 
