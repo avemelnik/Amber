@@ -331,7 +331,6 @@ h3:after {
   margin-top: 4em; }
 
 .latest-works {
-  width: 100%;
   min-height: 100vh;
   background: url("../img/latest-works.jpg") no-repeat center center;
   background-size: cover; }
@@ -397,6 +396,20 @@ h3:after {
       color: #02baab;
       font-size: 14px;
       margin-left: 8.7em; }
+
+.attention-section {
+  background: #25c4b0;
+  height: 141px; }
+  .attention-section .container {
+    max-width: 860px; }
+    .attention-section .container p {
+      font-family: Oxygen,sans-serif;
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 36px; }
+    .attention-section .container .my-btn {
+      background: none;
+      border-color: white; }
 
 body {
   width: 100%;
