@@ -18,6 +18,14 @@ h3:after{
   display: block;
 }
 
+h4{
+  color:red;
+  font-family: Oxygen, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
 
 .text-color-white{
   color: white;
@@ -33,4 +41,8 @@ h3:after{
   p{
     margin-top: 4em;
   }
+}
+
+.carousel-caption{
+  width:614px;
 }
