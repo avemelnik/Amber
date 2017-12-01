@@ -4,9 +4,13 @@
   background: black;
 }
 
+#collapsingNavbar2{
+  padding-bottom:20px;
+}
+
 .lower-part-of-header {
   width: 100%;
-  background: #666666;
+  background: $lowwer-header-color;
 }
 
   .container {
@@ -84,9 +88,7 @@
 
   .section-link {
     color: #ffffff;
-    font-family: Oxygen, sans-serif;
-    font-size: 12px;
-    font-weight: 300;
+    font: 300 12px Oxygen, sans-serif;
     line-height: 35px;
     text-transform: uppercase;
   }
@@ -139,9 +141,7 @@ input {
 
 .enter-link{
   color: #85939f;
-  font-family: Oxygen, sans-serif;
-  font-size: 11px;
-  font-weight: 300;
+  font: 300 11px Oxygen, sans-serif;
   line-height: 35px;
 }
 
@@ -158,6 +158,32 @@ input {
   top:0.1em;
   right: 0.3em;
 }
+
+.whish:before{
+  content: "\f08a";
+  font-family: FontAwesome;
+  position: relative;
+  right: 0.3em;
+  font-size:14px;
+}
+
+.exit:before{
+  content: "\f08b";
+  font-family: FontAwesome;
+  position: relative;
+  right: 0.3em;
+  font-size:14px;
+}
+
+.basket:after{
+  content: "\f07a";
+  font-family: FontAwesome;
+  position: relative;
+  left: 0.3em;
+  font-size:14px;
+  color: yellow;
+}
+
 
 
 

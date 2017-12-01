@@ -1,3 +1,4 @@
+@import "color";
 @import "caption";
 @import "header";
 @import "header";
@@ -8,6 +9,13 @@
 @import "attention";
 @import "features";
 @import "quote";
+@import "blog-post";
+@import "expirience";
+@import "our-team";
+@import "footer";
+@import "pages-switch";
+@import "pages-block-header";
+@import "gallery";
 
 body{
   width:100%;
@@ -25,4 +33,10 @@ body{
 li{
   list-style: none;
 }
+
+a:hover {
+  text-decoration: none;
+}
+
+
 

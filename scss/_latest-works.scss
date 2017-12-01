@@ -29,13 +29,13 @@
       left: 43%;
       opacity: 0;
       @media (min-width: 992px) {
-        left: 40%;
+        left: 35%;
       }
       .link-bg {
         width: 40px;
         height: 40px;
         border-radius: 50%;
-        background: #25c4b0;
+        background: $primary-color;
         padding-top: 8px;
         a{
           color:white;
@@ -49,7 +49,7 @@
     .lower-text {
       position: absolute;
       bottom: 30px;
-      margin-left: 190px;
+      margin-left: 10px;
       @media (min-width: 992px) {
         margin-left: 10px;
       }
@@ -57,9 +57,7 @@
         margin: 0;
       }
       .name {
-        font-family: Oxygen, sans-serif;
-        font-size: 14px;
-        font-weight: 300;
+        font: 300 14px Oxygen, sans-serif;
         line-height: 24px;
       }
       .name:after {
@@ -71,15 +69,13 @@
         left: 10.5em;
       }
       .job {
-        font-family: Oxygen, sans-serif;
-        font-size: 11px;
-        font-weight: 300;
+        font: 300 11px Oxygen, sans-serif;
         line-height: 20px;
       }
       .job:after {
         content: "157";
         position: relative;
-        color: #02baab;
+        color: $primary-color;
         font-size: 14px;
         margin-left: 8.7em;
       }

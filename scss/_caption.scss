@@ -19,22 +19,23 @@ h3:after{
 }
 
 h4{
-  color:red;
-  font-family: Oxygen, sans-serif;
-  font-size: 24px;
-  font-weight: 300;
+  font: 300 24px Oxygen, sans-serif;
   line-height: 30px;
 }
 
 
 .text-color-white{
-  color: white;
+  color: $white-color;
 }
 .text-color-green{
-  color: #02baab;
+  color: $primary-color;
 }
 .text-color-black{
   color: black;
+}
+
+.text-color-grey{
+  color: #9b9b9b;
 }
 
 .title-and-text{

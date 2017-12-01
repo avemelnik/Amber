@@ -1,13 +1,11 @@
 .my-btn{
   width: 136px;
   height: 40px;
-  background-color: #02baab;
-  border: solid 2px #02baab;
+  background: $primary-color;
+  border: solid 2px $primary-color;
   margin: 10px;
   color: #ffffff;
-  font-family: Oxygen, sans-serif;
-  font-size: 12px;
-  font-weight: 700;
+  font: 700 12px Oxygen, sans-serif;
   line-height: 35px;
   text-transform: uppercase;
 }
@@ -15,5 +13,10 @@
 .my-empty-btn{
   background: none;
   margin:10px;
-  color: #02baab;
+  color: $primary-color;
+}
+
+.my-empty-btn:hover {
+  background: $primary-color;
+  color: $white-color;
 }
